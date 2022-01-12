@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.skills {
+    margin: 100px, auto, 25px, auto;
+}
+
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #FF7E67; 
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3, h2, a {
+    color: #07689F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.top-container {
+    background-color: #A2D5F2;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin-bottom: 25px;
+}
+
+.bottom-container {
+    background-color: #A2D5F2;
+    padding: 25px 0 25px 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.book-img {
+    width: 25%;
+    float: left; 
+    margin-right: 30px;
+}
+
+.space-img {
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #FF7E67;
+    border-width: 10px;
+    height: 0;
+    width: 5%;
+    margin: 40px auto 40px auto;
+}
+
+.mountain {
+    width: 40%;
+}
+
+.profile-img {
+    width: 20%;
+    margin-top: 25px;
+}
+
+.bottom-container a {
+    margin: 0 20px 0 20px; 
+    font-size: 1.25em;
+    text-decoration: none; 
+}
+
+.bottom-container p {
+    color: #FAFAFA;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #FAFAFA;
+    font-size: 20px;
+    background: #A2D5F2;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.btn:hover {
+    background: #FF7E67;
+    text-decoration: none;
+}
